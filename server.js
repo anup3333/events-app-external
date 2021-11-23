@@ -51,7 +51,7 @@ app.get('/', (req, res) => {
             json: true  // response from server will be json format
         }, // second argument: function with three args,
         // runs when server response received
-        // body hold the return from the server
+        // body hold the return from the server 
         (error, response, body) => {
             if (error) {
                 console.log('error:', error); // Print the error if one occurred
